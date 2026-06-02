@@ -1,0 +1,14 @@
+FROM node:18-alpine
+WORKDIR /app
+
+# Install http-server globally
+RUN npm install -g http-server
+
+# Copy your frontend HTML file and rename it to index.html
+COPY portfolio_frontend.html ./index.html
+
+# Expose the port
+EXPOSE 3000
+
+# Start the server
+CMD ["http-server", "-p", "3000"]
