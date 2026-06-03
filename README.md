@@ -1,4 +1,4 @@
-# Lab Task 2, This is practice to understand the concepts of Docker (containerizatuin)
+# Lab Task 2: Practice exercises for understanding Docker and containerization concepts.
 
 
 
