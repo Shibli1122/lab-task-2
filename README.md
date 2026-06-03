@@ -1,4 +1,5 @@
-# Lab Task 2
+# Lab Task 2, This is practice to understand the concepts of Docker (containerizatuin)
+
 
 
 #This command removes Windows-style carriage return characters (\r) from the listed files to convert their line endings to Unix format (LF)
