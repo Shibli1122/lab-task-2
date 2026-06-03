@@ -59,10 +59,11 @@ http://13.62.103.147:3000
 ```
 
 #**To test data in DB:-** 
+
 #This command connects to the PostgreSQL database as the postgres user and executes a SQL query to display all rows from the messages table inside the portfolio_db database.
 ```bash
 sudo -u postgres psql -d portfolio_db -c "SELECT * FROM messages;"
-
+```
 
 
 #This command sends a HTTP POST request to a local API endpoint (/api/contact) with a JSON payload containing a name, email, and 
