@@ -1,12 +1,9 @@
 # Lab Task 2
 
-
-
-
-
-
-
 # This command removes Windows-style carriage return characters (\r) from the listed files to convert their line endings to Unix format (LF).
+
+**
+# This command removes Windows-style carriage return characters (\r) from the listed files to convert their line endings to Unix format (LF).**
 ```bash
 sed -i 's/\r$//' DB_Setup.sh Dockerfile Dockerfile.frontend backend_server.js database_service.py
 ```
